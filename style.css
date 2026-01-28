@@ -16,7 +16,6 @@
   justify-content: flex-end; /* verdeelt ruimte tussen logo en menu */
   text-decoration:none;
   display: flex;
-  justify-content: flex-end;
   gap: 15px;
   background-color: #06590a;
   text-decoration: none;
@@ -39,7 +38,6 @@ nav ul li a {
   transition: color 0.3s;
 }
 
-
 nav ul li a:hover {
   color: rgb(0, 0, 0);
   background-color: #ffffff;
@@ -48,7 +46,7 @@ nav ul li a:hover {
 main p:first-of-type {
   font-style: italic;
   text-align: justify;
-}
+} /* is voor elke eerste alinea van een page */
 
 img {
   height: 150px;
@@ -116,7 +114,7 @@ p span {
   color: rgb(45, 43, 43);  
   font-size: 22px;          
   font-weight: bold;
-  }
+  } /* aparte tekst voor Lany page song */
 
 .custom-list {
   list-style: decimal; /* ^ zal de standaard zijn: 1, 2, 3 */
@@ -155,26 +153,43 @@ p span {
 
 .artists {
   display: flex;
-  justify-content: center; /* verdeelt de items midden op de pagina */
-  align-items:flex-start;
+  justify-content:center; /* verdeelt de items midden op de pagina */
+  align-items: flex-start;
   flex-wrap: space-around;
   background-color: #beb0b0;
   margin-bottom: 1.5rem;
 }
 
+/* section {
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+/* hier probeerde ik alle content gecentreerd te hebben, maar dit lukte niet */
+
+
+div {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #d4caca;
+  text-align: center;;
+  width: 900px;
+  border: 2px solid #000000;
+}
+
 /* Inspiratie gekregen door Fatima Khatib*/
 blockquote {
-    background-color: #c2c1c1;  
-    width: 99%;
-    border-left: 8px solid #5a5a5a;
-    padding-bottom: 10px;
-    text-align: left;
+  background-color: #c2c1c1;  
+  width: 99%;
+  border-left: 8px solid #5a5a5a;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 cite {
-    display: block;
-    color: #4f4646;
-    font-size: 16px;
+  display: block;
+  color: #4f4646;
+  font-size: 16px;
 }
 
 footer {
